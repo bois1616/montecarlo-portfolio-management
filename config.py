@@ -1,5 +1,5 @@
 # List of stock tickers to include in the portfolio
-TICKERS = ['AAPL', 'MSFT', 'GOOG']
+TICKERS = ['AAPL', 'MSFT', 'NVDA']
 
 # Date range for historical data
 START_DATE = '2020-01-01'
@@ -15,7 +15,7 @@ NUM_SIMULATIONS = 10000
 TIME_HORIZON = 252
 
 # Risk-free rate for Sharpe Ratio calculation
-RISK_FREE_RATE = 0.02
+RISK_FREE_RATE = 0.045
 
 # Custom weights for each stock (should sum to 1)
 # If None, equal weights are assumed unless optimization is used
