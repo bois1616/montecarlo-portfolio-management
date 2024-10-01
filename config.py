@@ -3,18 +3,18 @@ TICKERS = ['AAPL', 'MSFT', 'NVDA']
 
 # Date range for historical data
 START_DATE = '2020-01-01'
-END_DATE = '2023-01-01'
+END_DATE = '2024-09-25'
 
 # Initial investment amount in dollars
-INITIAL_INVESTMENT = 1000
+INITIAL_INVESTMENT = 10000
 
 # Number of Monte Carlo simulations to run
 NUM_SIMULATIONS = 10000
 
 # Investment time horizon in days (e.g., 252 trading days in a year)
-TIME_HORIZON = 252
+TIME_HORIZON = 90
 
-# Risk-free rate for Sharpe Ratio calculation
+# Risk-free rate for Sharpe Ratio calculation. 0.02 = 2%
 RISK_FREE_RATE = 0.045
 
 # Custom weights for each stock (should sum to 1)
