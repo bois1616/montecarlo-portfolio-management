@@ -33,7 +33,7 @@ if __name__ == '__main__':
     stock_tsne = tsne.fit_transform(stock_data)
 
     # Visualize t-SNE output
-    plt.scatter(stock_tsne[:, 0], stock_tsne[:, 1], c=iris.target)
+    plt.scatter(stock_tsne[:, 0], stock_tsne[:, 1], c='r')
     plt.xlabel('t-SNE 1')
     plt.ylabel('t-SNE 2')
     plt.title('t-SNE Output')
